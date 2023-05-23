@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;;
+}
+body {
+  background-image: url(img/tesla-logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#container {
+    position: relative;
+}
+nav {
+  margin: 10px;  
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#navmenu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#tesla-logo-sting {
+   height: 23px;
+   margin-left: 30px;
+   margin-top: -5px;
+   
+}
+#ul1 {
+ margin-left: 200px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 100px;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+    font-size: 45.5px;
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#trial-drive{
+  margin-top: 540px;
+  outline: none;
+  border: 3px solid #fff;
+  padding: 5px 20px;
+  font-weight: bold;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  height: 40px;
+  width: 250px;
+  text-align: center;
+}
+
+li:hover{
+  background-color: rgba(255,255,255,0.1);
+  border-radius:5px ;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  -ms-border-radius: 5;
+  -o-border-radius: 5;
+}
+
+li {
+  padding: 5px;
+  transition: .7s ease;
+  -webkit-transition: .7s ease;
+  -moz-transition: .7s ease;
+  -ms-transition: .7s ease;
+  -o-transition: .7s ease;
+}
